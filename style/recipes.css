@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, 'Times New Roman', Verdana;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(from rgb(225, 144, 74) r g b);
+    background-color: rgb(from rgba(241, 175, 142, 0.473) r g b);
+}
+
+img {
+    height: auto;
+    width: 800px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p, ul, ol {
+    font-size: 19px;;
+}
+
+.brown-list {
+    color: brown;
+}
