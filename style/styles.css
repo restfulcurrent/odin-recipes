@@ -1,9 +1,47 @@
-body {
-    font-family: Arial, 'Times New Roman', Verdana;
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 1px solid red;
 }
 
-h1 {
+body {
+    font-family: Arial, 'Times New Roman', Verdana;
+    font-size: 20px;
+    margin-top: 10px;
+    /* padding: 15px; */
+}
+
+.card {
+    width: 600px;
+    background-color: rgb(249, 236, 232);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1{
+    /* background-color: rgb(from rgb(230, 213, 177) r g b); */
     text-align: center;
-    font-size: 40px;
-    color: rgb(from rgb(225, 172, 74) r g b);
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+ul {
+    padding: 10px 30px;
+    /* background-color: rgb(from rgb(230, 213, 177) r g b); */
+}
+
+li {
+    padding: 5px;
+}
+
+.sweet-potato {
+    margin-bottom: 10px;
+}
+
+.hot-cocoa {
+    margin-bottom: 10px;
 }
